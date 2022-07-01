@@ -5,57 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!-- Header section -->
     <header class="header">
+      <!-- navigation menu -->
       <nav class="header-nav">
-        <a class="logo" href="/index.html"> WebStudio </a>
-        <ul class="header-list">
+        <a class="logo link" href="/index.html">
+          <span class="logo-blue">Web</span
+          ><span class="logo-black">Studio</span>
+        </a>
+        <ul class="header-list list">
           <li class="header-item">
-            <a href="/index.html">Студия</a>
+            <a class="header-link  link" href="/index.html">Студия</a>
           </li>
           <li class="header-item">
-            <a href="/portfolio.html"> Портфолио</a>
+            <a class="header-link header-link-current link" href="/portfolio.html"> Портфолио</a>
           </li>
           <li class="header-item">
-            <a href="">Контакты</a>
+            <a class="header-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+
+      <!-- contacts  -->
+      <ul class="list">
+        <li class="header-mail">
+          <a class=" link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="header-phone">
+          <a class=" link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <!-- main section -->
 <main>
         <!-- portfolio-filtr" -->
     <section class="portfolio-filtr">
-      <ul>
+      <ul class="list">
         <li>
-          <button type="button">Все</button>
+          <button class="filter-button"  type="button"><span class="filter-button-txt">Все</span> </button>
         </li>
         <li>
-          <button type="button">Веб-сайты</button>
+          <button class="filter-button" type="button"><span class="filter-button-txt">Веб-сайты</span></button>
         </li>
         <li>
-          <button type="button">Приложения</button>
+          <button  class="filter-button" type="button"><span class="filter-button-txt">Приложения</span></button>
         </li>
         <li>
-          <button type="button">Дизайн</button>
+          <button class="filter-button" type="button"><span class="filter-button-txt">Дизайн</span></button>
         </li>
         <li>
-          <button type="button">Маркетинг</button>
+          <button class="filter-button" type="button"><span class="filter-button-txt">Маркетинг</span></button>
         </li>
       </ul>
-    </section>
-    <!-- portfolio-list -->
-    <section>
-      <ul>
+      <ul class="list">
         <li>
           <img src="./images/Tekhnokryak.jpg" alt="люди в мониторе" />
           <h3>Технокряк</h3>
@@ -107,11 +116,14 @@
 
     <!-- footer section -->
     <footer class="footer">
-      <a class="logo" href="/index.html"> WebStudio </a>
+      <a class="logo link" href="/index.html">
+        <span class="logo-blue">Web</span><span class="logo-white">Studio</span>
+      </a>
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
+              class="link map"
               href="https://goo.gl/maps/jmTaeeZg9YCNijqT7"
               target="_blank"
               rel="noopener noreferrer"
@@ -119,10 +131,12 @@
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link header-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
