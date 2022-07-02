@@ -13,11 +13,11 @@
     /*others*/
 }
 
+
 body{font-family: var(--main-font);
 
 color: var(--main-txt-cl);
 }
-
 
 
 
@@ -183,7 +183,6 @@ letter-spacing: 0.03em;
 color: #757575
 }
 
-}
 
 .footer{        
     background-color: var(--dark-bg-cl);
