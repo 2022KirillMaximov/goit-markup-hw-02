@@ -51,6 +51,7 @@ list-style: none;
 
 
 
+
 /************************************
 Header section
 */
@@ -120,18 +121,18 @@ text-transform: uppercase;
     color: #FFFFFF
 }
 .baner-button{
-    font-size: ;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-.baner-button span{
 font-size: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: calc(30 / 16);
-letter-spacing: 0.06em;
-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: var(--acent-txt-cl)
+}
+.baner-button:hover,
+.baner-button:focus{
+background-color:#188CE8
 }
 .benefits-lst-itm-slogan{
 font-weight: 700;
